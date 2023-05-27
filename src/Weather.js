@@ -15,7 +15,6 @@ export default function Weather() {
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
       wind: response.data.wind.speed,
     });
-    setReady(true);
   }
 
   if (weatherData.ready) {
